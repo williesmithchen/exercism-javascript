@@ -8,3 +8,4 @@ const fixCurry = (fn, totalArgs) => {
 const add = fixCurry((a, b ,c) => a + b + c);
 
 export { add };
+// https://theanubhav.com/2019/02/03/js-currying-in-interview/
